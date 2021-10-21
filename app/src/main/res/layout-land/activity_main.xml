@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="50dp"
+            >
+            <Button
+                android:id="@+id/led_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/min_width"
+                android:layout_marginLeft="20dp"
+                android:text="LedService APIs"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/margin_top"
+                />
+
+            <Button
+                android:id="@+id/mcu_bt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/min_width"
+                android:layout_marginLeft="20dp"
+                android:text="McuService APIs"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/margin_top"
+                />
+
+            <Button
+                android:id="@+id/system_bt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/min_width"
+                android:layout_marginLeft="20dp"
+                android:text="SystemService APIs"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/margin_top"
+                />
+
+            <Button
+                android:id="@+id/battery_bt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/min_width"
+                android:layout_marginLeft="20dp"
+                android:text="BatteryService APIs"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/margin_top"
+                />
+
+            <Button
+                android:id="@+id/gps_bt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/min_width"
+                android:layout_marginLeft="20dp"
+                android:text="GpsService APIs"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/margin_top"
+                />
+
+            <Button
+                android:id="@+id/net_bt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/min_width"
+                android:layout_marginLeft="20dp"
+                android:text="NetService APIs"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/margin_top"
+                />
+
+            <Button
+                android:id="@+id/serialport_bt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/min_width"
+                android:layout_marginLeft="20dp"
+                android:text="SerialPortService APIs"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/margin_top"
+                />
+
+            <Button
+                android:id="@+id/storage_bt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/min_width"
+                android:layout_marginLeft="20dp"
+                android:text="StorageService APIs"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/margin_top"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
